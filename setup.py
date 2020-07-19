@@ -17,7 +17,7 @@ setup(
         include=['iso8601'],
         exclude=['*.txt', '*.md']
     ),
-    version = '0.0.1',
+    version = '1.0.0',
     license = "GNU General Public License v3.0",
     description = 'CustomPrint - Python Library Providing Functions for customized print functions.',
     long_description=read('README.md'),
