@@ -3,6 +3,8 @@
 import os,sys
 sys.path.insert(1, os.path.join(sys.path[0], '..'))
 
+import unittest
+
 import iso8601
 
 def tests():
@@ -33,3 +35,5 @@ def tests():
             minutes_result='fail (expected ' + str(test['minutes']) + ' returned ' + str(minutes) + ')'
 
         print ("iso8601 duration Test: %-16s \t to_seconds %-16s \t to_minutes %-16s" % (test['iso8601'], seconds_result, minutes_result))
+
+tests()
